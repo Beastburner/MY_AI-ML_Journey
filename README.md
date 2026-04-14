@@ -180,7 +180,7 @@ After the core skills, choose **one track** to specialize in (NLP/LLMs, Computer
 
 Two timeline examples are given: a **6–12 month** realistic plan, and a **3–5 month accelerated** (“beastburner”) sprint. Weekly checkpoints keep you on track. Below is a sample **accelerated 6-month Gantt chart** (as mermaid code):
 
-```mermaid
+
 gantt
     dateFormat  YYYY-MM-DD
     title Accelerated 6-Month ML/AI Roadmap
@@ -200,7 +200,6 @@ gantt
     Chosen Track (NLP/CV/RL)    :2026-08-15, 21d
     section Portfolio & Prep
     Portfolio Finishing & Interviews :2026-09-01, 30d
-```
 
 In practice, a **12-month plan** might allocate ~2 months for Foundations/ML, 3–4 months Deep Learning (with several projects), 2 months MLOps, 2 months Specialization, and ongoing portfolio/job prep【23†L27-L30】.  Break your goals into monthly/week-by-week milestones (e.g. “Week 1: complete scikit-learn tutorials; Week 4: first ML project done; Week 8: basic CNN implemented” etc.).  Regularly assess with small tests (Kaggle submissions, LeetCode challenges) to stay on schedule.
 
