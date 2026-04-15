@@ -136,12 +136,62 @@ MY_AI-ML_Journey/
 
 **First Commit Message**: "Phase 1: Setting up study structure - Weeks 1-2 focus on linear models"
 
-## 🚀 Immediate Action Items (Today/Tomorrow)
-1. **Setup**: Create the directory structure above in your GitHub repo
-2. **Environment**: Verify Anaconda/JupyterLab working
-3. **Day 1 Learning**: Watch first 30 mins of StatQuest Linear Regression video OR read scikit-learn Supervised Learning tutorial
-4. **Day 1 Practice**: Load iris dataset, create train/test split, train LogisticRegression, evaluate accuracy
-5. **Document**: Create Week 1 Day 1 log in your repo with what you learned and any questions
+## ✅ Progress Update - Day 1 (April 15, 2026)
+
+### What We Did Today:
+1. ✅ **Data Loading & Exploration**: Loaded Sales_Train.csv (8,523 records, 12 features)
+2. ✅ **EDA**: 
+   - Created pairplot of numeric features
+   - Generated correlation matrix heatmap (all weak correlations ~0)
+   - Analyzed missing values and filled them appropriately
+3. ✅ **Data Cleaning**:
+   - Filled Item_Weight with mean (2,599 missing values)
+   - Filled Outlet_Size using groupby mode by Outlet_Type + Outlet_Location_Type
+4. ✅ **Model Building**:
+   - Built Linear Regression model using scikit-learn
+   - Used LabelEncoder for categorical variables
+   - Split data 70/30 train/test
+   - Made predictions on test set
+5. ✅ **Model Evaluation**:
+   - R² Score: 0.507 (explains 50.7% of variance)
+   - RMSE: $1,174.78
+   - Visualized actual vs predicted values (scatter plot)
+6. ✅ **GitHub**: Created .gitignore and pushed initial commit
+
+### What's Missing / Next Steps:
+
+**Week 1 Remaining (Days 2-7):**
+- [ ] Study linear regression theory (cost function, gradient descent, normal equation)
+- [ ] Experiment with Ridge/Lasso regularization
+- [ ] Learn feature scaling/normalization importance
+- [ ] Create coefficient interpretation analysis
+- [ ] Study logistic regression for classification
+- [ ] Practice on multiple datasets (iris, diabetes, breast cancer)
+- [ ] Create one-page linear models cheat sheet
+
+**Immediate Improvements Needed:**
+- [ ] Use OneHotEncoder instead of LabelEncoder for categorical features
+- [ ] Implement StandardScaler for numeric features
+- [ ] Try Ridge/Lasso regression to improve R²
+- [ ] Experiment with better models (Random Forest, XGBoost)
+- [ ] Feature engineering (create derived features)
+- [ ] Cross-validation for robust evaluation
+
+**Project Structure:**
+- [x] Data loaded and explored
+- [ ] Complete preprocessing pipeline
+- [ ] Baseline model established (Linear Regression: R² 0.507)
+- [ ] Feature engineering experiments
+- [ ] Model comparison and selection
+- [ ] Hyperparameter tuning
+- [ ] Final evaluation and documentation
+
+## 🚀 Immediate Action Items (Days 2-3)
+1. **Theory**: Read scikit-learn Ridge/Lasso documentation + regularization explanation
+2. **Practice**: Rebuild model with StandardScaler + OneHotEncoder
+3. **Experiment**: Compare LinearRegression vs Ridge vs Lasso R² scores
+4. **Learning**: Watch StatQuest "Linear Regression" video (30 mins)
+5. **Documentation**: Update this file with results and learnings
 
 ## 📚 Resource Integration from Your Report
 Use these specific resources mentioned in your deep-research-report.md:
